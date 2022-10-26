@@ -1,0 +1,22 @@
+/* pages/detail/detail.wxss */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    height: 100vh;
+    padding: 50rpx 0;
+    background-color: ghostwhite;
+}
+.bg {
+    margin: 2%;
+    width: 96%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #5F687E;
+    position: relative;
+    background-color: white;
+  }
+  .row{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}

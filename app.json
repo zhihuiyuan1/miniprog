@@ -1,0 +1,18 @@
+{
+  "pages":[
+    "pages/QRcode/QRcode",
+    "pages/detail/detail",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light", 
+    "navigationBarBackgroundColor": "#6ec3f1",
+    "navigationBarTitleText": "智慧园",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

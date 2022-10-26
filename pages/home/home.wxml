@@ -1,0 +1,26 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+    <view class="bg">
+        <view class="row">
+            姓名
+        </view>
+        <view class="row">
+            证件号码
+        </view>
+        <view class="row" style="margin-bottom: 20px;">
+            手机号码
+        </view>
+    </view>
+
+    <view class="bg">
+        <view class="row">
+            个人健康打卡
+        </view>
+        <view class="row">
+            健康证录入
+        </view>
+        <view class="row" style="margin-bottom: 20px;">
+            园内导航
+        </view>
+    </view>
+</view>

@@ -1,0 +1,29 @@
+/* pages/QRcode/QRcode.wxss */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    height: 100vh;
+    padding: 50rpx 0;
+    background-color: ghostwhite;
+}
+.info{
+    background-color: white;
+    width: 50vh;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 5vh;
+    box-shadow: 0 0 5px silver;
+}
+.qrcode{
+    width: 34vh;
+    height: 34vh;
+    margin-inline-start: 8vh;
+    margin-top: 5px;
+    margin-bottom: 5vh;
+    background-color: #77c684;
+}
+.hover{
+    background-color: gray;
+  }

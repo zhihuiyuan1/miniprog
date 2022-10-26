@@ -1,0 +1,22 @@
+<!--pages/QRcode/QRcode.wxml-->
+<text style="background-color: #6ec3f1; height: 20vh;"></text>
+<view class="container">
+    <view class="info">
+        <view style="font-size: 25px;margin-top: 5vh;margin-left: 20vh;">{{name}}</view>
+        <view style="color: grey;margin-left: 10vh;">{{identification_num}}</view>   
+        <view class="qrcode">
+            <text>qrcode</text>
+         </view>
+    </view>
+
+    <view class="info">
+        <view style="margin: 10px;"> 
+            <button type="primary" hover-class="hover" bindtap="getUserDetail">身份详细信息</button>
+         </view>
+        <view style="margin: 10px;"> 
+            <button type="primary" hover-class="hover" bindtap="getHome">个人主页</button>
+        </view>
+    </view>
+    
+</view>
+
